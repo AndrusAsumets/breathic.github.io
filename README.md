@@ -1,4 +1,4 @@
-Breathic is a fitness focused Apple Watch app that manages breathing cycles for athletes through heart or movement activity. It does that by measuring user's heartbeat or steps, which is then followed by triggering audible or haptic events which will indicate when it will be a good time to either breathe in or breathe out.
+Breathic is a fitness focused Apple Watch app for athletes (and for those looking to take a deeper look into their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartbeat or steps, which is then followed by triggering audible or haptic events which will indicate when it will be a good time to either breathe in or breathe out.
 
 In order to start a new session, make sure you are looking at Controller view of the app where the Source toggle allows for basing your breathing cycles to be calculated either through hearbeats/s or steps/s. Both modes will work when running, though heartbeats will be more usable when doing either cycling, rowing, etc.
 
