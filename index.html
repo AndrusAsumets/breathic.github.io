@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Breathic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta property="og:title" content="Breathic" />
+		<script type="module" src="/static/script/node_modules/@vanillawc/wc-markdown/index.js"></script>
+		<style type="text/css">
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
+			}
+	
+			@font-face {
+				font-family: SourceCodePro-Regular;
+				src: url(/static/font/source-code-pro/OTF/SourceCodePro-Regular.otf);
+			}
+
+			.divide-32 {
+				height: 32px;
+			}
+
+			.divide-64 {
+				height: 64px;
+			}
+			
+			body {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin: 16px;
+				padding: 0;
+				background-color: #060b1a;
+				color: rgba(255, 255, 255, 0.8);
+				font-family: SourceCodePro-Regular;
+				line-height: 2;
+				font-size: 14px;
+			}
+
+			.logo-container {
+				display: flex;
+				align-items: center;
+				font-size: 48px;
+			}
+
+			.logo {
+				width: 200px;
+				height: 200px;
+        background:url('/static/img/logo.png') no-repeat top left;
+        background-size: 200px 200px;
+				opacity: 0.8;
+			}
+
+			wc-markdown {
+				max-width: 800px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="divide-32"></div>
+		<div class="logo-container">
+			<div class="logo"></div>
+			<div class="logo-label">Breathic</div>
+		</div>
+		<div class="divide-32"></div>
+		<wc-markdown src="README.md"></wc-markdown>
+		<div class="divide-64"></div>
+		<div class="divide-64"></div>
+		<div class="divide-64"></div>
+		<div class="divide-64"></div>
+	</body>
+</html>
+

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@vanillawc/wc-markdown": "^1.6.11"
+  }
+}
