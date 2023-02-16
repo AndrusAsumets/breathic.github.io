@@ -6,129 +6,39 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta property="og:title" content="Breathic" />
 		<link rel="Shortcut icon" href="/static/img/favicon.jpg" />
+		<link rel="stylesheet" href="/static/script/node_modules/@vanillawc/wc-markdown/themes/prism.css">
+		<link rel="stylesheet" href="/static/style/app.css">
 		<script type="module" src="/static/script/node_modules/@vanillawc/wc-markdown/index.js"></script>
-		<style type="text/css">
-			*,
-			*:before,
-			*:after {
-				box-sizing: border-box;
-			}
-	
-			@font-face {
-				font-family: SourceCodePro-Regular;
-				src: url(/static/font/source-code-pro/OTF/SourceCodePro-Regular.otf);
-			}
-
-			.divide-8 {
-				min-width: 8px;
-				min-height: 8px;
-			}
-
-			.divide-16 {
-				min-width: 16px;
-				min-height: 16px;
-			}
-
-			.divide-32 {
-				min-width: 32px;
-				min-height: 32px;
-			}
-
-			.divide-64 {
-				min-width: 64px;
-				min-height: 64px;
-			}
-			
-			body {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				margin: 16px;
-				padding: 0;
-				background-color: #060b1a;
-				color: rgba(255, 255, 255, 0.8);
-				font-family: SourceCodePro-Regular;
-				line-height: 2;
-				font-size: 14px;
-			}
-
-			.logo-container {
-				display: flex;
-				align-items: center;
-				font-size: 32px;
-				user-select: none;
-			}
-
-			.logo {
-				width: 52px;
-				height: 96px;
-        background:url('/static/img/logo.png') no-repeat top left;
-        background-size: contain;
-				background-position: center;
-				opacity: 0.8;
-			}
-
-			.logo-label {
-				font-size: 24px;
-			}
-
-			.content {
-				display: flex;
-				max-width: 800px;
-			}
-
-			.content-inner {
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-			}
-
-			.watch-container {
-				position: sticky;
-				top: 100px;
-				align-self: flex-start;
-			}
-
-			.watch {
-				width: 141px;
-				height: 228px;
-        background:url('/static/img/watch-1.svg') no-repeat top left;
-        background-size: 141px 228px;
-				opacity: 0.8;
-			}
-		</style>
+		<script src="/static/script/node_modules/waypoints/lib/noframework.waypoints.min.js"></script>
+		<script src="/static/script/app.js"></script>
 	</head>
 	<body>
-		<div class="divide-64"></div>
-		<div class="divide-8"></div>
-
 		<div class="content">
-			<div class="watch-container">
-				<div class="divide-64"></div>
-				<div class="divide-64"></div>
-				<div class="divide-32"></div>
-				<div class="divide-16"></div>
-				<div class="watch"></div>
-			</div>
-
-			<div class="divide-64"></div>
-
-			<div class="content-inner">
+			<div class="content-left">
 				<div class="logo-container">
 					<div class="logo"></div>
 					<div class="logo-label">Breathic</div>
 				</div>
 
-				<div class="divide-64"></div>
-				<div class="divide-8"></div>
+				<div class="divide-256"></div>
 
-				<wc-markdown src="README.md"></wc-markdown>
+				<div class="watch">
+					<div class="watch-content"></div>
+					<div class="divide-8"></div>
+				</div>
+			</div>
+
+			<div class="divide-32"></div>
+
+			<div class="content-right">
+				<div class="divide-128"></div>
+				<div class="divide-32"></div>
+				<div class="divide-16"></div>
+
+				<wc-markdown src="README.md" highlight></wc-markdown>
 			</div>
 		</div>
 
-		<div class="divide-64"></div>
-		<div class="divide-64"></div>
-		<div class="divide-64"></div>
-		<div class="divide-64"></div>
+		<div class="divide-512"></div>
 	</body>
 </html>
