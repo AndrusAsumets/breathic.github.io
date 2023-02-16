@@ -8,7 +8,7 @@ After installing the app, take a look at `Controller` view where the `Source` ta
 Next up, hit `Rhythm` tab, which will open a `Rhythm` view that you can use for changing frequency of breathing (either both in and out or just out when using the picker on the right). If you previously had chosen heartbeats as a source, then using rhythm of 1:1 when your heartbeat is on 1bps (or 60bpm) will mean it will do half a breathing cycle per second (or 30bpm). If you are to increase the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then apps breathing rate will also increase by a factor of 2.
 
 Thirdly, start a session by hitting the `Session` button.
-<log@way.point>
+<progress@way.point>
 By default, haptic will be preselected for you under `Feedback` tab, but toggling the tab will let you choose between haptic and audio events.
 
 
