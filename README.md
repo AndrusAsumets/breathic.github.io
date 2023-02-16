@@ -1,5 +1,5 @@
 <controller@way.point>
-***Breathic*** is a fitness focused Apple Watch app for athletes (and specifically for those looking to get a better understanding of their breath) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events which will indicate when it will be a good time to either breathe in or breathe out again.
+***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (or more specifically for those looking to get a better understanding of their breath) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events which will indicate when it will be a good time to either breathe in or breathe out again.
 
 <rhythm@way.point>
 After installing the app, take a look at `Controller` view where the `Source` tab toggle allows for basing your breathing cycles to be calculated either through hearbeats/s or steps/s. Both modes will work for running, though heartbeats will be more usable when doing either cycling, rowing, etc.
@@ -12,7 +12,7 @@ Thirdly, start a session by hitting the `Session` button.
 By default, haptic will be preselected for you under `Feedback` tab, but toggling the tab will let you choose between haptic and audio events.
 
 
-If you chose audio, make sure the output device is set as connected under watch's *Settings -> Bluetooth*. In order to really make haptic events vibrant on your watch, go to *Settings -> Sounds & Haptics* and drag `ALERT VOLUME` all the way down to 0, and then check *Prominent* under `HAPTICS` tab to increase the level of vibrations.
+If you chose audio, make sure the output device is set as connected under Apple Watch's *Settings -> Bluetooth*. In order to really make haptic events vibrant on your watch, go to *Settings -> Sounds & Haptics* and drag `ALERT VOLUME` all the way down to 0, and then check *Prominent* under `HAPTICS` tab to increase the level of vibrations.
 
 If you previously chose heartbeats from the `Source` tab (or steps and have since begun to walk), and are now wearing the watch on your hand, then it should be giving you haptic or audible feedback. If you pan the `Controller` view to left, you will see `Status` view on the right with all the relevant metrics.
 
