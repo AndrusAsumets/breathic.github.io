@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vanillawc/wc-markdown": "^1.6.11",
+    "waypoints": "^4.0.1"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Breathic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta property="og:title" content="Breathic" />
+		<link rel="Shortcut icon" href="./static/img/favicon.jpg" />
+		<link rel="stylesheet" href="./static/js/node_modules/@vanillawc/wc-markdown/themes/prism.css">
+		<link rel="stylesheet" href="./static/style/app.css">
+		<script type="module" src="./static/js/node_modules/@vanillawc/wc-markdown/index.js" type="text/javascript"></script>
+		<script src="./static/js/node_modules/waypoints/lib/noframework.waypoints.min.js" type="text/javascript"></script>
+		<script src="./static/js/app.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="content">
+			<div class="content-left">
+				<div class="logo-container">
+					<div class="logo"></div>
+					<div class="logo-label">Breathic</div>
+				</div>
+
+				<div class="divide-256"></div>
+
+				<div class="watch">
+					<div class="watch-content"></div>
+					<div class="divide-8"></div>
+				</div>
+			</div>
+
+			<div class="divide-32"></div>
+
+			<div class="content-right">
+				<div class="divide-128"></div>
+				<div class="divide-32"></div>
+				<div class="divide-16"></div>
+
+				<wc-markdown src="README.md" highlight type="text/javascript"></wc-markdown>
+			</div>
+		</div>
+
+		<div class="divide-512"></div>
+	</body>
+</html>
