@@ -114,7 +114,7 @@ body {
 .watch-content {
   width: 126px;
   height: 136px;
-  background-size: contain;
+  background-size: 85% 95%;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 32px;
