@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 code {
-  background-color: #445381;
-}
-
-em {
-  text-decoration: underline;
+  background-color: #0077cc;
+  color: #060b1a;
+  opacity: 0.8;
 }
 
 a {

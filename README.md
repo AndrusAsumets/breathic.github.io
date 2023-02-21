@@ -3,26 +3,26 @@
 \
 \
 \
-First, after installing the app, take a look at `Controller` view where the `Source` toggle allows for basing your breathing cycles to be calculated either through hearbeats/s or steps/s. Both modes will work for running, though heartbeats will be more usable when doing either cycling, rowing, skiing, skating, etc.
+First, after installing the app, take a look at `Controller` view where the `Source` toggle allows for basing your breathing cycles to be calculated either through hearbeats or steps. Both modes will work for running, though heartbeats will be more usable when doing either cycling, rowing, skiing, skating, etc.
 \
 \
 \
 Secondly, focus on the `Activity` toggle. Default rhythms are:
 >
->Slow (2.2:2.2)
+>*Slow* (2.2:2.2)
 >\
->Normal (2:2)
+>*Normal* (2:2)
 >\
->Fast (1.8:1.8)
+>*Fast* (1.8:1.8)
 >\
->Rest (2.2:4.4)
+>*Rest* (2.2:4.4)
 >
 <status@way.point>
-To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then apps breathing rate will also increase by a factor of 2.
+To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
-Thirdly, `Feedback` toggles between `Audio`, `Haptic` and `Mute`. `Audio` selection also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the `Audio` label.
+Thirdly, `Feedback` toggles between ***Audio***, ***Haptic*** and ***Mute***. ***Audio*** selection also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
 \
 \
 \
@@ -31,7 +31,7 @@ Lastly, start a session by pressing and holding the `Session` tab. If you toggle
 \
 \
 \
-If you chose Audio, make sure the output device is set as connected under Apple Watch's *Settings -> Bluetooth*. In order to really make haptic events vibrant on your watch, go to *Settings -> Sounds & Haptics* and drag `ALERT VOLUME` all the way down to 0, and then check *Prominent* under `HAPTICS` tab to increase the level of vibrations.
+If you chose Audio, make sure the output device is set as connected under Apple Watch's ***Settings -> Bluetooth***. In order to really make haptic events vibrant on your watch, go to ***Settings -> Sounds & Haptics*** and drag `ALERT VOLUME` all the way down to 0, then check *‌**rominent*** under `HAPTICS` tab to increase the level of vibrations.
 \
 \
 \
