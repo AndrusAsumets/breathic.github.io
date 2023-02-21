@@ -1,5 +1,5 @@
 <controller@way.point>
-***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding of their breathing [1]) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
+***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding of their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
 \
 \
 \
@@ -31,7 +31,7 @@ Lastly, start a session by pressing and holding the `Session` tab. If you toggle
 \
 \
 \
-If you chose Audio, make sure the output device is set as connected under Apple Watch's ***Settings -> Bluetooth***. In order to really make haptic events vibrant on your watch, go to ***Settings -> Sounds & Haptics*** and drag `ALERT VOLUME` all the way down to 0, then check *‌**rominent*** under `HAPTICS` tab to increase the level of vibrations.
+If you chose Audio, make sure the output device is set as connected under Apple Watch's ***Settings -> Bluetooth***. In order to really make haptic events vibrant on your watch, go to ***Settings -> Sounds & Haptics*** and drag `ALERT VOLUME` all the way down to 0, then check *‌**Prominent*** under `HAPTICS` tab to increase the level of vibrations.
 \
 \
 \
@@ -48,7 +48,7 @@ If for some reason you made a mistake of not approving access for heartrate and/
 \
 \
 \
-[1] - Why focus on the breath, you ask? Well, according to Encyclopedia Britannica:  
+Why focus on the breath, you ask? Well, according to Encyclopedia Britannica:  
 >
 >"Breathing, the action of moving air or water across the surface of a respiratory structure, such as a gill or lung, to facilitate respiration (the exchange of oxygen and carbon dioxide with the environment)."
 >
