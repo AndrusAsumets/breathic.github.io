@@ -1,5 +1,5 @@
 <controller@way.point>
-***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding of their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
+***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding into their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
 \
 \
 \
@@ -9,20 +9,20 @@ First, after installing the app, take a look at `Controller` view where the `Sou
 \
 Secondly, focus on the `Activity` toggle. Default rhythms are:
 >
->*Slow* (2.2:2.2)
+>*Slow* (3:3)
 >\
->*Normal* (2:2)
+>*Normal* (2.5:2.5)
 >\
->*Fast* (1.8:1.8)
+>*Fast* (2:2)
 >\
->*Rest* (2.2:4.4)
+>*Rest* (3:6)
 >
 <status@way.point>
 To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
-Thirdly, `Feedback` toggles between ***Audio***, ***Haptic*** and ***Mute***. ***Audio*** selection also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
+Thirdly, `Feedback` toggles between ***Audio***, ***Haptic***, ***Audio Haptic*** and ***Mute***. ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
 \
 \
 \
@@ -35,7 +35,7 @@ If you chose Audio, make sure the output device is set as connected under Apple 
 \
 \
 \
-After finishing a session, press and hold the `Session` tab again for either *saving* or *discarding* session metrics. Saved sessions with relevant overview data as well as a graph will appear under `Log` view that you can select from the burger menu.
+After finishing a session, press and hold the `Session` tab again for either *saving* or *discarding* session metrics. Saved sessions with relevant overview data as well as a graph will appear under `Log` view that you can select from the burger menu. Finished sessions will also be uploaded to cloud, and can be then on accessed by scanning the QR-code under `Export` tab.
 \
 \
 \
