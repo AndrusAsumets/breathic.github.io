@@ -7,15 +7,29 @@ First, after installing the app, take a look at `Controller` view where the `Sou
 \
 \
 \
-Secondly, focus on the `Activity` toggle. Default rhythms are:
+Secondly, focus on the `Activity` toggle. Pressing and holding it will toggle between activities (currently just running and cycling). Tapping on the `Activity` will toggle between different presets. All presets will have different rhythm speeds. Default rhythms for running are:
 >
->*Slow* (3:3)
+>*Slowest* (4:4)
 >\
->*Normal* (2.5:2.5)
+>*Slow* (3.5:3.5)
 >\
->*Fast* (2:2)
+>*Normal* (3:3)
 >\
->*Rest* (3:6)
+>*Fast* (2.5:2.5)
+>\
+>*Fastest* (2:2)
+>
+For rides, however:
+>
+>*Slowest* (6:6)
+>\
+>*Slow* (5:5)
+>\
+>*Normal* (4:4)
+>\
+>*Fast* (3:3)
+>\
+>*Fastest* (2:2)
 >
 <status@way.point>
 To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
