@@ -128,6 +128,10 @@ body {
   display: none;
 }
 
+.footer {
+  display: flex;
+}
+
 @media only screen and (max-width: 1024px) {
   body {
     margin: 8px;
