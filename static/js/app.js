@@ -1,7 +1,8 @@
 (async () => {
+  const separator = 'mailto:';
   const sleep = ms => new Promise(r => setTimeout(r, ms));
   const parseSection = waypoint =>
-    waypoint.href.split('mailto:')[1].split('@way.point')[0];
+    waypoint.href.split(separator)[1].split('@way.point')[0];
   const updateWatch = (section) =>
     document.querySelector('.watch-content').style.backgroundImage = `url(/static/img/${section}.png)`;
   let sectionIndex = 0;
@@ -16,7 +17,12 @@
     }
 
     areWaypointsEnabled = true;
-    const sections = Array.prototype.map.call(waypoints, (waypoint) => parseSection(waypoint));
+
+    const sections = Array.prototype
+      .map.call(waypoints, (waypoint) => waypoint)
+      .filter(waypoint => waypoint.href.includes(separator))
+      .map(waypoint => parseSection(waypoint));
+
     updateWatch(sections[sectionIndex]);
 
     Array.prototype.forEach.call(waypoints, (waypoint) => {
