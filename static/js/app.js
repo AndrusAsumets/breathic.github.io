@@ -20,7 +20,7 @@
 
     const sections = Array.prototype
       .map.call(waypoints, (waypoint) => waypoint)
-      .filter(waypoint => waypoint.href.includes(separator));
+      .filter(waypoint => waypoint && waypoint.href.includes(separator));
 
     updateWatch(parseSection(sections[sectionIndex]));
 
