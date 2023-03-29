@@ -20,12 +20,11 @@
 
     const sections = Array.prototype
       .map.call(waypoints, (waypoint) => waypoint)
-      .filter(waypoint => waypoint.href.includes(separator))
-      .map(waypoint => parseSection(waypoint));
+      .filter(waypoint => waypoint.href.includes(separator));
 
-    updateWatch(sections[sectionIndex]);
+    updateWatch(parseSection(sections[sectionIndex]));
 
-    Array.prototype.forEach.call(waypoints, (waypoint) => {
+    sections.forEach(waypoint => {
       new Waypoint({
         element: waypoint,
         handler: () =>
