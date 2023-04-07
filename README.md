@@ -3,45 +3,24 @@
 \
 \
 \
-First, after installing the app, take a look at `Controller` view where the `Source` toggle allows for basing your breathing cycles to be calculated either through hearbeats or steps. Both modes will work for running, though heartbeats will be more usable when doing either cycling, rowing, skiing, skating, etc.
+First, after installing the app, take a look at `Controller` view where the `Session` toggle allows for starting (and then finishing) a session. You will be greeted with selection different activities that each will have different rhythm speeds.
 \
 \
 \
-Secondly, focus on the `Activity` toggle. Pressing and holding it will toggle between activities (currently just running and cycling). Tapping on the `Activity` will toggle between different presets. All presets will have different rhythm speeds. Default rhythms for running are:
->
->*Slowest* (4:4)
->\
->*Slow* (3.5:3.5)
->\
->*Normal* (3:3)
->\
->*Fast* (2.5:2.5)
->\
->*Fastest* (2:2)
->
-For rides, however:
->
->*Slowest* (6:6)
->\
->*Slow* (5:5)
->\
->*Normal* (4:4)
->\
->*Fast* (3:3)
->\
->*Fastest* (2:2)
->
+Secondly, `Playback` temporarily pauses (or resumes) the session.
+\
+\
+\
+Thirdly, `Feedback` toggles between ***Audio***, ***Haptic*** and ***Mute***. ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
+\
+\
+\
 <status@way.point>
-To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
+Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms. To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
-Thirdly, `Feedback` toggles between ***Audio***, ***Haptic***, ***Audio Haptic*** and ***Mute***. ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
-\
-\
-\
-<progress@way.point>
-Lastly, start a session by pressing and holding the `Session` tab. If you toggled Heartbeats from the `Source` tab (or steps and have since begun to walk), and are now wearing the watch on your hand, then it should be giving you audible/haptic feedback. If you pan the `Controller` view to left, you will see `Status` view on the right with all the relevant metrics.
+If you then pan the `Controller` view to left, you will see `Status` view on the right with all the relevant metrics.
 \
 \
 \
@@ -49,6 +28,7 @@ If you chose Audio, make sure the output device is set as connected under Apple 
 \
 \
 \
+<progress@way.point>
 After finishing a session, press and hold the `Session` tab again for either *saving* or *discarding* session metrics. Saved sessions with relevant overview data as well as a graph will appear under `Log` view that you can select from the burger menu. Finished sessions will also be uploaded to cloud, and can be then on accessed by scanning the QR-code under `Export` tab.
 \
 \
