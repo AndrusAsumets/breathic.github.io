@@ -1,5 +1,5 @@
 <controller@way.point>
-***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding into their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate or steps, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
+***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding into their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
 \
 \
 \
