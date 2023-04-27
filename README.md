@@ -11,7 +11,7 @@ Secondly, `Playback` temporarily pauses (or resumes) the session.
 \
 \
 \
-Thirdly, `Feedback` toggles between ***Audio***, ***Haptic*** and ***Mute***. ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
+Thirdly, `Feedback` toggles between ***Music***, ***Audio***, ***Haptic*** and ***Mute***. ***Music*** and ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
 \
 \
 \
