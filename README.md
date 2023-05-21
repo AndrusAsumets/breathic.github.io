@@ -3,7 +3,7 @@
 \
 \
 \
-After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with selection different activities that each will have different rhythm speeds (***Focus***, ***Move***, ***Relax***, ***Sleep***).
+After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with selection different activities that each will have different rhythm speeds (***Move***, ***Relax***, ***Sleep***).
 \
 \
 \
@@ -16,7 +16,7 @@ Thirdly, `Feedback` toggles between ***Music***, ***Audio***, ***Haptic*** and *
 \
 \
 <status@way.point>
-Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms based on your selection. ***Focus***, ***Relax*** and ***Sleep*** use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
+Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms based on your selection. ***Relax*** and ***Sleep*** use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
