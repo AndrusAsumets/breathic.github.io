@@ -1,13 +1,13 @@
-<controller@way.point>
+<session@way.point>
 ***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding into their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
 \
 \
 \
-First, after installing the app, take a look at `Controller` view where the `Session` toggle allows for starting (and then finishing) a session. You will be greeted with selection different activities that each will have different rhythm speeds.
+After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with selection different activities that each will have different rhythm speeds (***Focus***, ***Move***, ***Relax***, ***Sleep***).
 \
 \
 \
-Secondly, `Playback` temporarily pauses (or resumes) the session.
+Secondly, `Playback` temporarily pauses (or resumes) the session. Depending on which breathing steps are available for a particular activity, relevant label (In, Hold, Out, Hold) will be displayed here for your guidance on when to breathe.
 \
 \
 \
@@ -16,11 +16,11 @@ Thirdly, `Feedback` toggles between ***Music***, ***Audio***, ***Haptic*** and *
 \
 \
 <status@way.point>
-Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms. To give you an overview, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
+Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms based on your selection. ***Focus***, ***Relax*** and ***Sleep*** use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
-If you then pan the `Controller` view to left, you will see `Status` view on the right with all the relevant metrics.
+If you then pan the `Session` view to left, you will see `Status` view on the right with all the relevant metrics.
 \
 \
 \
@@ -28,7 +28,7 @@ If you chose Audio, make sure the output device is set as connected under Apple 
 \
 \
 \
-<progress@way.point>
+<overview@way.point>
 After finishing a session, press and hold the `Session` tab again for either *saving* or *discarding* session metrics. Saved sessions with relevant overview data as well as a graph will appear under `Log` view that you can select from the burger menu. Finished sessions will also be uploaded to cloud, and can be then on accessed by scanning the QR-code under `Export` tab.
 \
 \
