@@ -1,5 +1,5 @@
 <session@way.point>
-***Breathic*** is a fitness-focused Apple Watch app for endurance athletes (and more specifically for those looking to get a better understanding into their breathing) that manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
+***Breathic*** is a fitness-focused Apple Watch app for endurance athletes; for those looking into lowering levels of anxiety; and more specifically for those looking to get a better understanding into their breathing. The app manages breathing cycles through heart or movement activity. It does that by measuring user's heartrate, which is then followed by triggering audible or haptic events indicating when it will be a good time to either breathe in or breathe out again.
 \
 \
 \
@@ -11,12 +11,12 @@ Secondly, `Playback` temporarily pauses (or resumes) the session. Depending on w
 \
 \
 \
-Thirdly, `Feedback` toggles between ***Music***, ***Audio***, ***Haptic*** and ***Mute***. ***Music*** and ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
+Thirdly, `Feedback` toggles between ***Music***, ***Audio*** and ***Haptic*** ***Music*** and ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
 \
 \
 \
 <status@way.point>
-Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms based on your selection. ***Relax*** and ***Sleep*** use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1:1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2:2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
+Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms based on your selection. ***Relax*** (currently limited to box breathing of 4-4-4-4) and ***Sleep*** (4-7-8) use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1-1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2-2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
