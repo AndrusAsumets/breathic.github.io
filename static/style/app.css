@@ -124,6 +124,25 @@ body {
   background-image: url('/static/img/controller.png');
 }
 
+.content-right {
+  position: relative;
+}
+
+.available-on-the-app-store-logo {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  width: 120px;
+  height: 36px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 32px;
+  background-color: white;
+  background-image: url('/static/img/available-on-the-app-store-logo.png');
+  cursor: pointer;
+}
+
 .show-mobile {
   display: none;
 }
