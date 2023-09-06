@@ -3,7 +3,7 @@
 \
 \
 \
-After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with selection different activities that each will have different rhythm speeds (***Move***, ***Relax***, ***Sleep***).
+After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with an `Activity` view (***Move***, ***Relax***, ***Sleep***) where each option will have different rhythm speeds. After picking one you will land into a `Duration` view where you can choose limited session duration or use `∞` for unlimited.
 \
 \
 \
@@ -11,7 +11,7 @@ Secondly, `Playback` temporarily pauses (or resumes) the session. Depending on w
 \
 \
 \
-Thirdly, `Feedback` toggles between ***Music***, ***Audio*** and ***Haptic***. ***Music*** and ***Audio*** selections also allows for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Audio*** label.
+Thirdly, `Feedback` toggles between ***Haptic***, ***Music***, ***Both*** or ***Mute***. ***Music*** and ***Both*** selections also allow for changing the volume using the crown of your watch while the volume levels will also be visually portrayed back to you on the small vertical progress bar next to the ***Feedback*** label.
 \
 \
 \
