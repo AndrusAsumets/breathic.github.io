@@ -3,7 +3,7 @@
 \
 \
 \
-After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with an `Activity` view (***Move***, ***Relax***, ***Sleep***) where each option will have different rhythm speeds. After picking one you will land into a `Duration` view where you can choose limited session duration or use `∞` for unlimited.
+After installing the app, take a look at `Session` view where first toggle allows for starting (and then finishing) a session. You will be greeted with an `Activity` view (***Move***, ***Relax***, ***Sleep***) where each option will have different rhythm speeds. After picking one you will land into a `Duration` view where you can choose between a limited session duration or use `∞` for unlimited.
 \
 \
 \
@@ -16,7 +16,7 @@ Thirdly, `Feedback` toggles between ***Haptic***, ***Music***, ***Both*** or ***
 \
 \
 <status@way.point>
-Lastly, focus on the `Activity` toggle. Tapping on the `Activity` will toggle between different rhythms based on your selection. ***Relax*** (currently limited to box breathing of 4-4-4-4) and ***Sleep*** (4-7-8) use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1-1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2-2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
+Lastly, focus on the `Pace` toggle. Tapping it will toggle between different rhythms based on your selection. ***Relax*** (currently limited to box breathing of 4-4-4-4) and ***Sleep*** (4-7-8) use constant 1 second duration per step, whereas for ***Move***, having rhythm of 1-1 while your heartbeat is on 1bps (or 60bpm) will translate to 0.5 breath cycles (in and out) per second (or 30bpm). If you are to decrease the rhythm to 2-2, then the breathing feedback will become slower by a factor of 2. If you start working out and your heartbeat goes from 60 to 120bpm, then app's breathing rate will also increase by a factor of 2.
 \
 \
 \
@@ -37,6 +37,7 @@ If for some reason you made a mistake of not approving access for heartrate and/
 \
 \
 \
+If it happens so that the app pauses while when the screen goes dark due to inactivity, then please restart your watch and try again.
 \
 \
 \
